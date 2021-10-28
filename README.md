@@ -35,4 +35,4 @@ python -m pytest -v
 python -m pytest -v --html=./result_name.html
 
 синхронный запуск с поддержкой pytest: - требуется доработка(
-python -m pytest -n {i} #i - кол-во групп
+python -m pytest xdist -n {i} #i - кол-во групп
